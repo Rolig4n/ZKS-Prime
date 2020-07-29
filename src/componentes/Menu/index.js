@@ -1,18 +1,20 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import Logo from '../../assets/img/logo.png';
 import './Menu.css';
-import ButtonLink from './componentes/ButtonLink';
+//import ButtonLink from './componentes/ButtonLink';
+import Button from '../../componentes/Button';
 
 function Menu() {
     return (
         <nav className="Menu">
-            <a href="/">
+            <Link to="/">
                 <img className="Logo" src={Logo} alt="ZKS Prime logo"></img>
-            </a>
+            </Link>
 
-            <ButtonLink className="ButtonLink" href="/">
+            <Button as={Link} className="ButtonLink" to="/cadastro/video">
                 Video novo
-            </ButtonLink>
+            </Button>
         </nav>
     );
 }
