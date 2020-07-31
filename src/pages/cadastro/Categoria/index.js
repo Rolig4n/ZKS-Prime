@@ -30,7 +30,9 @@ function CadastroCategoria() {
   }
 
   useEffect(() => {
-    const URL_TOP = 'http://localhost:8080/categorias';
+    const URL_TOP = window.location.hostname.includes('localhost')
+      ? 'https://localhost:8080/categorias'
+      : 'https://zks-prime.herokuapp.com/categorias';
     fetch(URL_TOP).then(async (respostaServidor) => {
       const dados = await respostaServidor.json();
       setCategorias([...dados,
@@ -86,9 +88,9 @@ function CadastroCategoria() {
       </form>
 
       {categorias.length === 0 && (
-      <div>
-        Carregando...
-      </div>
+        <div>
+          Carregando...
+        </div>
       )}
 
       <ul>
