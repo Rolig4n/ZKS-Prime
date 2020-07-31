@@ -25,6 +25,8 @@ a {
 }
 
 #root{
+  background-color: var(--black);
+  color: var(--grayLight);
   min-height: calc(100vh - var(--bodyPaddingTop));
   display: flex;
   flex-direction: column;
