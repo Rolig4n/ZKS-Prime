@@ -1,3 +1,18 @@
+# ZKS-Prime
+
+Projeto de introdução ao desenvolvimento com JavaScript, utilizando React
+
+| :placard: Vitrine.Dev |     |
+| -------------  | --- |
+| :sparkles: Nome        | **ZKS-Prime**
+| :label: Tecnologias | javascript, html, css
+| :link: vercel | [Vercel.app](https://zks-prime-llabf6yxv.vercel.app/)
+
+<!-- Inserir imagem com a #vitrinedev ao final do link -->
+![](https://via.placeholder.com/1200x500.png?text=imagem+lindona+do+meu+projeto#vitrinedev)
+
+## Detalhes do projeto
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
